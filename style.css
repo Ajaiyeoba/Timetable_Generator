@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+header h2{
+    font-size: 30px;
+    color: blue;
+    margin: 30px 0px;
+}
+
+header .nav-list{
+    display: flex;
+    margin-left: 60px;
+}
+header .nav-list a{
+    margin-left: 40px;
+}
+
+main{
+    display: grid;
+    margin: 40px 60px;
+}
+
